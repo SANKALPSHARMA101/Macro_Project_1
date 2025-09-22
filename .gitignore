@@ -1,0 +1,55 @@
+# Ignore build, intermediate and saved folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore project user settings (local only)
+*.suo
+*.user
+*.userprefs
+*.sln
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Ignore Mac/Windows specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Rider / JetBrains IDE settings
+.idea/
+
+# Ignore build logs
+*.log
+
+# Ignore packaged builds
+*.pdb
+*.exe
+*.dll
+*.app
+*.dylib
+*.so
+
+# Ignore config backups
+*.ini.tmp
+
+# Ignore Crash Reports
+CrashReportClient/
+
+# Ignore generated plugins
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# Ignore generated Config backups
+Config/Default*.*.backup
+
+# Keep source and content!
+!Content/
+!Config/
+!Source/
+!*.uproject
